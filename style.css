@@ -1,0 +1,103 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #fffefa;
+  color: #342f33;
+}
+
+header {
+  padding: 1.5rem;
+}
+
+header h1 {
+  font-size: 7rem;
+}
+
+.titles {
+  width:17rem;
+  float: left;
+}
+
+.card {
+  margin: 1.5rem;
+  min-height: 20rem;
+}
+
+.bio {
+  float: right;
+  width: 200px;
+}
+
+.links {
+  display: block;
+  margin: 1.5rem;
+}
+
+.about {
+  padding: 3rem;
+  background-color: #342f33;
+  color: #fffefa;
+
+}
+
+.about image {
+  float: left;
+}
+
+.about p {
+  width: 15rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.about span {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.rules {
+  padding: 3rem;
+}
+.works {
+  padding: 3rem;
+  background-image: url('assets/James-Victore6.jpg');
+  background-size: cover;
+  min-height: 50rem;
+  background-position: center;
+
+}
+
+.works2 {
+  padding: 3rem;
+  background-image: url('assets/JamesVictore-Trump-11x14.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 50rem;
+  background-position: center;
+}
+
+.conc {
+  padding: 3rem;
+}
+a {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div {
+  display: block;
+}
+
+section {display: block;}
